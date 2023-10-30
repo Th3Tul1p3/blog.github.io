@@ -23,7 +23,7 @@ description: Blog relating about little projects that I have made.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-#show_excerpts: true
+#page_excerpts: true
 kramdown:
   input: Kramdown
 
