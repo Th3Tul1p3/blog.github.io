@@ -28,7 +28,7 @@ github_username:  Th3Tul1p3
 show_excerpts: true
 
 # Build settings
-theme: architect
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 
