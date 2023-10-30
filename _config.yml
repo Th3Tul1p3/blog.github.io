@@ -23,13 +23,18 @@ description: Blog relating about little projects that I have made.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-show_excerpts: true
+#show_excerpts: true
+kramdown:
+  input: Kramdown
+
 
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+#  - jekyll-paginate
 
+#paginate: 5
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
