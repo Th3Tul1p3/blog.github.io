@@ -19,18 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Blog on stuffs 
-description: description.
+description: Blog relating about little projects that I have made. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  Th3Tul1p3
 
 show_excerpts: true
 
 # Build settings
-remote_theme: pages-themes/architect@v0.2.0
+theme: jekyll-theme-cayman
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
